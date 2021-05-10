@@ -1,0 +1,86 @@
+.footer {
+  margin-top: 40px;
+  .footer_content1 {
+      border-bottom: 1px solid $color-gray-6;
+      padding-bottom: 30px;
+    .footer_content1_left {
+      padding-left: 50px;
+      .footer_content1_left_ul {
+        .footer_content1_left_li {
+          list-style: none;
+          font-size: 13px;
+          display: block;
+          margin: 10px 0px;
+          .fcllia {
+            text-decoration: none;
+          }
+          .fcllia_active {
+            font-weight: $fw-bold;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .footer_content1_right {
+      .footer_content1_right_ul {
+        .footer_content1_right_li {
+          list-style: none;
+          font-size: 13px;
+          display: block;
+          margin: 10px 0px;
+          .fcllia {
+            text-decoration: none;
+          }
+        }
+      }
+      .footer_content1_right_btn {
+        font-size: 13px;
+        @include styleBtn($color-white-0, $color-black-light, $color-black-light, $pd-1 + 1, $pd-1 + 2);
+        margin-left: 100px;
+        .fa-globe-africa {
+          padding: 0 15px;
+        }
+        .fa-angle-up {
+          text-align: left;
+          padding-right: 10px;
+          padding-left: 50px;
+          //    margin-right: 10px ;
+        }
+      }
+    }
+  }
+  .footer_content2 {
+      padding: 20px 0;
+      border-bottom: 7px solid $color-red-0;
+    .footer_content2_left {
+      .footer_content2_left_items {
+        display: flex;
+        .footer_content2_left_img {
+          width: 100px;
+          margin-left: 30px;
+        }
+        .footer_content2_left_text {
+          font-size: 13px;
+          opacity: 0.8;
+          margin-top: 10px;
+          margin-left: 20px;
+        }
+      }
+    }
+    .footer_content2_right {
+        display: flex;
+        padding-left: 150px;
+      .footer_content2_right_items {
+        font-size: 13px;
+        padding-top:20px ;
+        .footer_content2_right_txt1 {
+            margin: 0 5px;
+        }
+        .footer_content2_right_txt2 {
+            margin: 0 10px;
+        }
+      }
+    }
+  }
+ 
+}

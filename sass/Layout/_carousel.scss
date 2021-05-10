@@ -1,0 +1,98 @@
+.udemyCarousel {
+  .carousel_top {
+    // ghi duong dan giong nhu CSS
+    background-image: url("../img/cover.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    .carousel_content {
+      .car_title {
+        margin-top: 100px;
+        width: 80%;
+        font-size: $fs-8;
+        color: $color-white-0;
+        text-align: left;
+        font-weight: $fw-bold;
+      }
+      .car_p {
+        width: 100%;
+        color: $color-white-0;
+        font-size: $fs-4;
+        text-align: left;
+      }
+      .carousel_form {
+        @include styleFormSearch($color-white-cream, $color-white-cream, $color-white-0, $color-gray-6);
+      }
+    }
+  }
+  .carousel_bottom {
+    background: linear-gradient(to right, $color-purple, $color-red-0);
+    width: 100%;
+    height: 120px;
+    .car_bot_items {
+      display: flex;
+      margin-top: 20px;
+      .fa-bullseye {
+        flex-grow: 3;
+        color: $color-white-0;
+        font-size: $fs-10;
+      }
+      .fa-check-circle {
+        flex-grow: 3;
+        margin-left: 40px;
+        color: $color-white-0;
+        font-size: $fs-10;
+      }
+      .fa-recycle {
+       margin-left: 80px;
+        flex-grow: 3;
+        color: $color-white-0;
+        font-size: $fs-10;
+      }
+      .car_bot_content {
+        flex-grow: 7;
+        .car_bot_title {
+          color: $color-white-0;
+          margin-left: 10px;
+          font-size: $fs-4;
+          font-weight: $fw-bold;
+        }
+        .car_bot_text {
+            color: $color-white-0;
+           margin-top: 5px;
+           margin-left: 10px;
+            font-size: $fs-5;
+        }
+      }
+      .car_content2 {
+        width: 50%;
+       margin-left: -15px;
+        .car_bot_title {
+            text-align: left;
+          color: $color-white-0;
+          font-size: $fs-4;
+          font-weight: $fw-bold;
+        }
+        .car_bot_text {
+            color: $color-white-0;
+            margin-top: 5px;
+             font-size: $fs-5;
+        }
+      }
+      .car_content3 {
+         
+        .car_bot_title {
+          color: $color-white-0;
+          margin-left: 5px;
+          font-size: $fs-4;
+          font-weight: $fw-bold;
+        }
+        .car_bot_text {
+            color: $color-white-0;
+            margin-top: 5px;
+             font-size: $fs-5;
+        }
+      }
+    }
+  }
+}

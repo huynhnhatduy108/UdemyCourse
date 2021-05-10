@@ -1,0 +1,19 @@
+.udemy_btnLogin{
+    @include styleBtn($color-white-0,$color-gray-4,$color-gray-4,$pd-1+1,$pd-1+2);
+    &:hover{
+        @include styleBtnHover($color-white-0,$color-black-0,$color-black-0);
+    }
+
+}
+.udemy_btnSignup{
+    @include styleBtn($color-red-0,$color-white-0,$color-white-0,$pd-1+1,$pd-1+2);
+    &:hover{
+        @include styleBtnHover($color-red-2,$color-white-0,$color-trans);
+    }
+}
+.btn_bannner{
+    @include styleBtn($color-red-0,$color-white-0,$color-white-0,$pd-1+1,$pd-1+2);
+    &:hover{
+        @include styleBtnHover($color-red-2,$color-white-0,$color-trans);
+    }
+}

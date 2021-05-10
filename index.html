@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <!-- FONTWERSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- CAROUSEL CSS-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="udemyHeader navbar navbar-expand-lg navbar-light bg-light">
+            <div class="udemyHeader_left col-7">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo-coral.svg" alt="">
+                </a>
+                <span class="headerCategories"><i class="fa fa-th">&nbsp</i>Categories</span>
+                <form class="headerForm">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for anything"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="udemyHeader_right col-5">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item header_business">
+                        <a class="nav-link" href="#">Udemy for Business</span></a>
+                    </li>
+                    <li class="nav-item header_teach">
+                        <a class="nav-link" href="#">Teach on Udemy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"><i class="fa fa-shopping-bag"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn udemy_btnLogin">Log In</button>
+                        <button class="btn udemy_btnSignup">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section class="udemyCarousel">
+        <!-- carousel Top -->
+        <div class="carousel_top">
+            <div class="carousel_content container">
+                <div class="row">
+                    <div class="col-5">
+                        <h1 class="car_title">Apprenez à votre rythme</h1>
+                        <p class="car_p">Étudiez à tout moment le sujet que vous souhaitez. Faites dès maintenant votre
+                            choix parmi
+                            des
+                            milliers de cours enseignés par des formateurs confirmés.</p>
+                        <form class="carousel_form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Do you have any queston?"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- carousel bototom -->
+        <div class="carousel_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 car_bot_items">
+                        <i class="fas fa-bullseye"></i>
+                        <div class="car_bot_content car_content1">
+                            <h5 class="car_bot_title">100 000 cours en ligne</h5>
+                            <p class="car_bot_text"> Explorez une variété de sujets d'actualité</p>
+                        </div>
+                    </div>
+                    <div class="col-4 car_bot_items">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="car_bot_content car_content2">
+                            <h5 class="car_bot_title">Cours donnés par des formateurs confirmés</h5>
+                            <p class="car_bot_text"> Trouvez le formateur qui vous correspond</p>
+                        </div>
+                    </div>
+                    <div class="col-4 car_bot_items">
+                        <i class="fas fa-recycle"></i>
+                        <div class="car_bot_content car_content2">
+                            <h5 class="car_bot_title">Accès illimité</h5>
+                            <p class="car_bot_text">Apprenez à votre rythme</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- COURSES -->
+    <section class="courses">
+        <div class="container">
+            <div class="row ">
+                <div class="col-5 courses_left">
+                    <p class="courses_left_title">Le choix de cours le plus vaste du monde</p>
+                    <p class="courses_left_text">Choisissez parmi plus de 100 000 vidéos de cours en ligne. De nouveaux
+                        cours sont ajoutés tous
+                        les mois</p>
+                </div>
+                <div class="col-7 courses_right">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-business" data-toggle="tab" href="#nav-business"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Business</a>
+                            <a class="nav-item nav-link" id="nav-design" data-toggle="tab" href="#nav_design" role="tab"
+                                aria-controls="nav-design" aria-selected="false">Design</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-photographer"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Photographer</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-development"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Development</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-marketing"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Marketing</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-logistics"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Information et</a>
+                            <!-- <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-devPersonal"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Development personal</a> -->
+                        </div>
+                    </nav>
+                    <!-- List courses -->
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-business" role="tabpanel"
+                            aria-labelledby="nav-business">
+                            <div class="courses_content">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="viewing_items">
+                                            <img class="viewing_items_img" src="./img/kh2.jpg" alt="" srcset="">
+                                            <div class="viewing_items_vente">
+                                                <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                                            </div>
+                                            <div class="viewing_items_content">
+                                                <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                                                <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                                                <div class="viewing_items_content_star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                                                </div>
+                                                <div class="viewing_items_content_money">
+                                                    <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                                                    <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="viewing_items">
+                                            <img class="viewing_items_img" src="./img/kh5.jpg" alt="" srcset="">
+                                            <div class="viewing_items_vente">
+                                                <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                                            </div>
+                                            <div class="viewing_items_content">
+                                                <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                                                <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                                                <div class="viewing_items_content_star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                                                </div>
+                                                <div class="viewing_items_content_money">
+                                                    <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                                                    <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="viewing_items">
+                                            <img class="viewing_items_img" src="./img/kh9.jpg" alt="" srcset="">
+                                            <div class="viewing_items_vente">
+                                                <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                                            </div>
+                                            <div class="viewing_items_content">
+                                                <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                                                <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                                                <div class="viewing_items_content_star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                                                </div>
+                                                <div class="viewing_items_content_money">
+                                                    <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                                                    <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav_design" role="tabpanel" aria-labelledby="nav-design">
+                            <div class="courses_content">
+                               hahhshdh
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-photographer" role="tabpanel"
+                            aria-labelledby="nav-contact-tab">
+                            <div class="courses_content">
+                                hi
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-development" role="tabpanel"
+                            aria-labelledby="nav-profile-tab">
+                            <div class="courses_content">
+                                ho
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-marketing" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="courses_content">
+                                he
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-logistics" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="courses_content">
+                                halo
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-devPersonal" role="tabpanel"
+                            aria-labelledby="nav-contact-tab">
+                            <div class="courses_content">
+                                hello
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="courses2">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-4 courses2_items1">
+                        <i class="fas fa-recycle"></i>
+                        <div class="courses_content courses2_content1">
+                            <h5 class="courses_title">Avancez à votre propre rythme</h5>
+                            <p class="courses_text"> Profitez d'un accès illimité aux cours sur le site Web et
+                                l'application Udemy</p>
+                        </div>
+                    </div>
+                    <div class="col-4 courses2_items2">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="courses_content courses2_content2">
+                            <h5 class="courses_title">Apprenez avec des experts du secteur</h5>
+                            <p class="courses_text">Faites votre choix parmi les meilleurs formateurs du monde</p>
+                        </div>
+                    </div>
+                    <div class="col-4 courses2_items3">
+                        <i class="fa fa-play-circle"></i>
+                        <div class="courses_contentt courses2_content3">
+                            <h5 class="courses_title">Trouvez des cours vidéo sur tous les sujets ou presque</h5>
+                            <p class="courses_text">Constituez votre bibliothèque pour votre carrière et votre
+                                développement
+                                personnel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- VIEWING -->
+    <section class="viewing">
+        <div class="container">
+            <h1 class="viewing_title">Les participants consultent</h1>
+            <div class="viewing_content">
+                <div class="viewing_items">
+                    <img class="viewing_items_img" src="./img/kh10.jpg" alt="" srcset="">
+                    <div class="viewing_items_vente">
+                        <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                    </div>
+                    <div class="viewing_items_content">
+                        <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                        <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                        <div class="viewing_items_content_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                        </div>
+                        <div class="viewing_items_content_money">
+                            <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                            <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewing_items">
+                    <img class="viewing_items_img" src="./img/kh11.jpg" alt="" srcset="">
+                    <div class="viewing_items_vente">
+                        <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                    </div>
+                    <div class="viewing_items_content">
+                        <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                        <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                        <div class="viewing_items_content_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                        </div>
+                        <div class="viewing_items_content_money">
+                            <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                            <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewing_items">
+                    <img class="viewing_items_img" src="./img/kh12.jpg" alt="" srcset="">
+                    <div class="viewing_items_vente">
+                        <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                    </div>
+                    <div class="viewing_items_content">
+                        <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                        <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                        <div class="viewing_items_content_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                        </div>
+                        <div class="viewing_items_content_money">
+                            <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                            <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewing_items">
+                    <img class="viewing_items_img" src="./img/kh13.jpg" alt="" srcset="">
+                    <div class="viewing_items_vente">
+                        <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                    </div>
+                    <div class="viewing_items_content">
+                        <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                        <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                        <div class="viewing_items_content_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                        </div>
+                        <div class="viewing_items_content_money">
+                            <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                            <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewing_items">
+                    <img class="viewing_items_img" src="./img/kh14.jpg" alt="" srcset="">
+                    <div class="viewing_items_vente">
+                        <p class="viewing_items_vente_txt">MEILEURE VENTE</p>
+                    </div>
+                    <div class="viewing_items_content">
+                        <p class="viewing_items_content_title">Formation Complète Développeur Web </p>
+                        <p class="viewing_items_content_txt">John taieb (Coder) </p>
+                        <div class="viewing_items_content_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p class="viewing_items_content_star_rate">4,6 (12 560)</p>
+                        </div>
+                        <div class="viewing_items_content_money">
+                            <p class="viewing_items_content_money_txt1">199,99 $US</p>
+                            <p class="viewing_items_content_money_txt2">10,99 $US</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <h4>1</h4>
+                    </div>
+                    <div class="item">
+                        <h4>2</h4>
+                    </div>
+                    <div class="item">
+                        <h4>3</h4>
+                    </div>
+                    <div class="item">
+                        <h4>4</h4>
+                    </div>
+                    <div class="item">
+                        <h4>5</h4>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- BANNER -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner_content">
+                <div class="banner_items1">
+                    <i class="fa fa-file-video"></i>
+                    <i class="fa fa-balance-scale"></i>
+                    <i class="fa fa-gopuram"></i>
+                    <i class="fab fa-adobe"></i>
+                    <i class="fa fa-chart-bar"></i>
+                </div>
+                <div class="banner_items2">
+                    <div class="col-3">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="col-6">
+                        <h1 class="banner_title">Obtenir des recommandations personnalisées</h1>
+                        <p class="banner_text">Répondez à quelques questions pour vos sélections préférées</p>
+                        <button class="btn_banner">Premiers pas</button>
+                    </div>
+                    <div class="col-3">
+                        <i class="far fa-images"></i>
+                    </div>
+                </div>
+                <div class="banner_items3">
+                    <i class="fa fa-image"></i>
+                    <i class="fa fa-heartbeat"></i>
+                    <i class="fa fa-chart-bar"></i>
+                    <i class="fa fa-gopuram"></i>
+                    <i class="fa fa-pen-nib"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="container">
+            <h1 class="cate_title">Meilleures catégories</h1>
+            <div class="row">
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fas fa-file-code category_icon"></i>
+                        <p class="category_text">Development</p>
+                    </div>
+                </div>
+
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="far fa-chart-bar category_icon"></i>
+                        <p class="category_text">Business</p>
+                    </div>
+                </div>
+
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fas fa-qrcode category_icon"></i>
+                        <p class="category_text">Information and logistic</p>
+                    </div>
+                </div>
+
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fas fa-pencil-ruler category_icon"></i>
+                        <p class="category_text">Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row categories_row2">
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fas fa-bullseye category_icon"></i>
+                        <p class="category_text">Marketing</p>
+                    </div>
+                </div>
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fas fa-book-reader category_icon"></i>
+                        <p class="category_text">Development personal</p>
+                    </div>
+                </div>
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fa fa-camera-retro category_icon"></i>
+                        <p class="category_text">Photographer</p>
+                    </div>
+                </div>
+
+                <div class="col-3 category_items">
+                    <div class="category_content">
+                        <i class="fa fa-music category_icon"></i>
+                        <p class="category_text">Music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- FEEDBACK -->
+    <section class="feedBack">
+        <div class="container">
+            <h1 class="feedBack_title">Ce que disent nos participants</h1>
+            <div class="row">
+                <div class="col-4 feedBack_items">
+                    <div class="feedBack_content">
+                        <div class="feedback_title">
+                            <img src="https://i.udemycdn.com/user/100x100/8872940_27b4_3.jpg" alt=""
+                                class="feedback_title_img">
+                            <p class="feedback_title_name">Borivoje</p>
+                        </div>
+                        <p class="feedback_title_txt">
+                            Udemy m'a sauvé la vie. Je n'ai ni le temps ni l'argent pour m'inscrire à une université.
+                            Mon
+                            objectif est de devenir un développeur Web indépendant, et grâce à Udemy.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 feedBack_items">
+                    <div class="feedBack_content">
+                        <div class="feedback_title">
+                            <img src="https://i.udemycdn.com/user/100x100/22869844_edad.jpg" alt=""
+                                class="feedback_title_img">
+                            <p class="feedback_title_name"> Dipesh</p>
+                        </div>
+                        <p class="feedback_title_txt">
+                            Je crois en l'apprentissage permanent et Udemy est une plate-forme idéale pour bénéficier
+                            des
+                            connaissances d'experts. J'ai beaucoup appris et je recommande Udemy à tous mes amis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 feedBack_items">
+                    <div class="feedBack_content">
+                        <div class="feedback_title">
+                            <img src="https://i.udemycdn.com/user/100x100/26154780_76c8.jpg" alt=""
+                                class="feedback_title_img">
+                            <p class="feedback_title_name">Kathy</p>
+                        </div>
+                        <p class="feedback_title_txt">
+                            Avec mes enfants, nous adorons Udemy ! Les cours sont géniaux et les formateurs sont
+                            compétents
+                            et divertissants. J'aurais aimé connaître Udemy plus tôt.l'argent pour m'inscrire à une
+                            université.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CAMPANIES -->
+    <section class="companies">
+        <div class="container">
+            <div class="companies_content1">
+                <P class="companies_content1_title">Des entreprises de toutes tailles nous font confiance</P>
+                <div class="companies_items">
+                    <img src="./img/booking.svg" alt="">
+                    <img src="./img/volkswagen.svg" alt="">
+                    <img src="./img/mercedes.svg" alt="">
+                    <img src="./img/pinterest.svg" alt="">
+                    <img src="./img/adidas.svg" alt="">
+                    <img src="./img/paypal.svg" alt="">
+                </div>
+            </div>
+            <div class="companies_content2">
+                <div class="row">
+                    <div class="col-6 companies_content2_items1">
+                        <h3 class="companies_content2_title">Devenir formateur</h3>
+                        <p class="companies_content2_txt">Les meilleurs formateurs du monde donnent des cours à des
+                            millions de participants sur Udemy.
+                            Nous vous offrons les outils et les compétences nécessaires pour enseigner ce que vous
+                            aimez.</p>
+                        <button class="companies_content2_btn">Découvrez et développez votre potentiel </button>
+                    </div>
+                    <div class="col-6 companies_content2_items2">
+                        <h3 class="companies_content2_title">Udemy for Business</h3>
+                        <p class="companies_content2_txt">Offrez à votre équipe un accès illimité à plus de 4 000 cours
+                            parmi les meilleurs d'Udemy.
+                        </p>
+                        <button class="companies_content2_btn">Otbtenez Udemy for Business </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer_content1">
+            <div class="row">
+                <div class="col-6 footer_content1_left">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer_content1_left_ul">
+                                <li class="footer_content1_left_li"><a class="fcllia_active" href="http://">Udemy for
+                                        Business</a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia_active" href="http://">Enseigner
+                                        sur Udemy</a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia" href="http://">Application
+                                        Udemy</a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia" href="http://"> À propos
+                                        d'Udemy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer_content1_left_ul">
+                                <li class="footer_content1_left_li f_c_l_a"><a class="fcllia"
+                                        href="http://">Carrières</a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia" href="http://">Blog</a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia" href="http://">Aide et support
+                                    </a></li>
+                                <li class="footer_content1_left_li"><a class="fcllia" href="http://">Affilié </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 footer_content1_right">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer_content1_right_ul">
+                                <li class="footer_content1_right_li"><a class="fcllia" href="http://">Plan du site </a>
+                                </li>
+                                <li class="footer_content1_right_li"><a class="fcllia" href="http://">Cours à l'affiche
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <button class="footer_content1_right_btn"><i class="fa fa-globe-africa"></i>France<i
+                                    class="fa fa-angle-up"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_content2">
+            <div class="row">
+                <div class="col-6 footer_content2_left">
+                    <div class="footer_content2_left_items">
+                        <img class="footer_content2_left_img" src="./img/logo-coral.svg" alt="">
+                        <p class="footer_content2_left_text">Droits d'auteur © 2020 Udemy, Inc.</p>
+                    </div>
+                </div>
+                <div class="col-6 footer_content2_right">
+                    <div class="footer_content2_right_items">
+                        <a class="footer_content2_right_txt1" href="#">Conditions</a>
+                        <a class="footer_content2_right_txt2" href="http://">Politique de confidentialité et politique
+                            en matière de cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- CAROUSEL JS-->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

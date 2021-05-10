@@ -1,0 +1,30 @@
+.categories {
+  margin: 40px 0;
+  .cate_title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+    .category_items {
+      padding:0 15px;
+      .category_content {
+       
+        border: 1px solid $color-gray-6;
+        align-items: center;
+        padding: 5px 0px;
+        width: 100%;
+        display: inline-flex;
+        .category_icon {
+            font-size: 25px;
+            margin: 0 15px;
+          }
+          .category_text {
+            font-size: 16px;
+            margin-top: 15px;
+          }
+    }
+  }
+  .categories_row2{
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,36 @@
+.udemyHeader {
+  @include styleText($fs-1, $fw-normal, $color-black-light);
+  .udemyHeader_left {
+    display: flex;
+    align-items: center;
+    .navbar-brand {
+      flex-grow: 1;
+      img {
+        width: 150px;
+      }
+    }
+    .headerCategories {
+      flex-grow: 1;
+    }
+    .headerForm {
+      flex-grow: 6;
+      @include styleFormSearch($color-white-cream, $color-white-cream, $color-white-0,$color-gray-6);
+    
+    }
+  }
+  .udemyHeader_right {
+    .navbar-nav {
+      .navbar-link {
+        @include styleText($fs-1, $fw-normal, $color-black-light);
+      }
+    }
+    .header_business, .header_teach{
+        display: block;
+    }
+    @include screenResponsive('extra-large'){
+      .header_business, .header_teach{
+        display: none;
+    }
+    }
+  }
+}

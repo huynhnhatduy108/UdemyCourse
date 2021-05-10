@@ -1,0 +1,100 @@
+@mixin styleText($fs,$fw,$color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+// cách 1
+
+// @mixin styleBtn($bg,$color,$bd,$pd-tb,$pd-rl,$bg-hover,$color-hover,$bd-hover) {
+//     background-color: $bg;
+//     color: $color;
+//     border: 1px solid $bd;
+//     padding: $pd-tb $pd-rl;
+
+    
+//     &:hover{
+//         background-color: $bg-hover;
+//         color: $color-hover;
+//         border: 1px solid $bd-hover;
+//     }
+// }
+
+// cách 2
+@mixin styleBtn($bg,$color,$bd,$pd-tb,$pd-rl) {
+    background-color: $bg;
+    color: $color;
+    border: 1px solid $bd;
+    padding: $pd-tb $pd-rl;
+
+}
+@mixin styleBtnHover($bg-hover,$color-hover,$bd-hover){
+        background-color: $bg-hover;
+        color: $color-hover;
+        border: 1px solid $bd-hover;
+}
+@mixin styleFormSearch($bg-form,$bd-form,$bg-input,$bd-input) {
+    .input-group {
+      background-color: $bg-form;
+      border: 1px solid $bg-form;
+    //   border-radius: 2px;
+      .form-control {
+        background-color: $color-trans;
+        border: 1px solid $color-trans;
+        padding: 10px 10px;
+      
+        &:focus {
+          background-color: $bg-input;
+          box-shadow: none;
+          border-top: 1px solid $bd-input;
+          border-bottom: 1px solid $bd-input;
+          border-left: 1px solid $bd-input;
+          // dau + kết nối với form bên dưới
+          &+ .input-group-append{
+            .input-group-text{
+              background-color: $bg-input;
+              box-shadow: none;
+              border-top: 1px solid $bd-input;
+              border-bottom: 1px solid $bd-input;
+              border-right: 1px solid $bd-input;
+              &:hover {
+                background-color: $color-red-0;
+                color: $color-white-0;
+              }
+            }
+          }
+        }
+      }
+      .input-group-text {
+        background-color: $color-trans;
+        border: 0px solid $color-trans;
+        color: $color-red-0;
+        &:hover {
+          background-color: $color-red-0;
+          color: $color-white-0;
+        }
+      }
+    }
+}
+
+// CAROUSEL
+@mixin styleCarouselI() {
+  color: $color-white-0;
+  font-size: $fs-3;
+} 
+
+
+//medium
+@mixin screenResponsive($screen) {
+    // kiểm tra gia trị người dùng nhập vào có tồn tại trong mảng không
+    // $map:tên của mảng
+    // $key:tham số truyền vào,tên của element
+    @if map-has-key($map: $breakpoints, $key: $screen){
+        $value: map-get($map: $breakpoints, $key: $screen );
+        @media screen and(max-width:$value){
+            @content;
+        }
+    }
+    @else{
+        @warn "Gía trị không hợp lệ";
+    }
+}

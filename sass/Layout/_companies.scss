@@ -1,0 +1,64 @@
+.companies {
+  padding: 40px 0;
+  background-color: $color-gray-5;
+  border-bottom: 1px solid $color-gray-6;
+  .companies_content1 {
+    .companies_content1_title {
+      font-size: 14px;
+      text-align: center;
+    }
+    .companies_items {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .companies_content2 {
+    margin-top: 20px;
+    .companies_content2_items1 {
+      padding-top: 40px;
+      border-right: 1px solid $color-gray-6;
+      .companies_content2_title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        opacity: 0.9;
+      }
+      .companies_content2_txt {
+        padding-left: 50px;
+        text-align: center;
+        font-size: 16px;
+        width: 85%;
+      }
+      .companies_content2_btn{
+          margin-left: 90px;
+        @include styleBtn($color-red-0, $color-white-0, $color-white-0, $pd-1 + 1, $pd-1 + 2);
+        &:hover {
+          @include styleBtnHover($color-red-2, $color-white-0, $color-trans);
+        }
+      }
+    }
+    .companies_content2_items2 {
+        padding-top: 40px;
+        .companies_content2_title {
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          opacity: 0.9;
+        }
+        .companies_content2_txt {
+          padding-left: 50px;
+          text-align: center;
+          font-size: 16px;
+          width: 85%;
+        }
+        .companies_content2_btn{
+            margin-left: 140px;
+          @include styleBtn($color-red-0, $color-white-0, $color-white-0, $pd-1 + 1, $pd-1 + 2);
+          &:hover {
+            @include styleBtnHover($color-red-2, $color-white-0, $color-trans);
+          }
+        }
+      }
+  }
+}
